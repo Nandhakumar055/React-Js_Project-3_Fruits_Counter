@@ -1,0 +1,70 @@
+.bg-container {
+  padding: 5% 10%;
+  background-color: #e7a601;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 80vh;
+  padding: 15px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+
+span {
+  color: #e7a601;
+}
+
+.fruit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.fruit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .fruit-card {
+    width: 50%;
+  }
+}
+
+.fruit-image {
+  height: 100%;
+  padding: 20px;
+  max-width: 300px;
+}
+.fruit-button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  align-self: center;
+  color: white;
+}
